@@ -85,7 +85,6 @@ for i=1:length(energy)
     hold on;
     plothandles(2*i-1) = plot(x1*100,y1*100,strcat(color,style),'linewidth',5);
     plothandles(2*i) = plot(x2*100,y2*100,strcat(color),'linewidth',5);
-%     plot(x3*100,y3*100,strcat(color),'linewidth',5);
     legendstrings(2*i-1) = cellstr(strcat('U_{kinetic} = ',int2str(energy(i)*1e6),' \muJ in vacuum'));
     legendstrings(2*i) = cellstr(strcat('U_{kinetic} = ',int2str(energy(i)*1e6),' \muJ in air'));
     plot(dair*100,hair*100,strcat(color,'x'),'linewidth',20)
