@@ -9,6 +9,7 @@ function [h,d,velocity] = PlotXYTrajectory(energy, mass, rho, Cd, A, angle, g)
 % A = cross-sectional area in m^2
 % angle = takeoff angle in degrees
 % g = gravity in m/s^2
+%
 
 c='bgrkmyc';
 s(1,:) = '- ';
